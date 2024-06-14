@@ -20,6 +20,35 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+}
+
+div.header {
+  font-weight: 600;
+}
+
+div.top-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.advice {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+div.buttons {
+  margin-top: 1rem;
+}
+
+div.text {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .icon {
